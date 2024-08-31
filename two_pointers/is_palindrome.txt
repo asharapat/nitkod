@@ -1,0 +1,9 @@
+Desc:
+Given a string s, return true if it is a palindrome, otherwise return false.
+
+Solution:
+def isPalindrome(self, s: str) -> bool:
+    - join all alphanumeric chars to one string.lowercase()
+    - keep 2 pointers: l, r = 0, len(s)-1
+    - loop while l < r and if s[l] != s[r] - return false
+    - otherwise return true

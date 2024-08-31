@@ -10,3 +10,6 @@
 - [x] 7. [Product of array discluding self](https://github.com/asharapat/nitkod/blob/master/arrays/product_of_array_discluding_self.txt)
 - [x] 8. [Valid Sudoku](https://github.com/asharapat/nitkod/blob/master/arrays/valid_sudoku.txt)
 - [x] 9. [Longest consecutive sequence](https://github.com/asharapat/nitkod/blob/master/arrays/longest_consecutive_sequence.txt)
+
+## Two Pointers
+- [x] 1. [Is palindrome](https://github.com/asharapat/nitkod/blob/master/two_pointer/is_palindrome.txt)
