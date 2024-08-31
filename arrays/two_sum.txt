@@ -1,0 +1,9 @@
+Desc:
+Given an array of integers nums and an integer target, return the indices i and j such that nums[i] + nums[j] == target and i != j.
+You may assume that every input has exactly one pair of indices i and j that satisfy the condition.
+
+Solution:
+def twoSum(self, nums: List[int], target: int) -> List[int]
+    - create a map that contains "map[num] = index" info
+    - check if current number is in map. If yes -> return [prevMap[n], i]
+    - save prevMap[target-currentNumber] = i 
