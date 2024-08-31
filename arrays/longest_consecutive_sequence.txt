@@ -1,0 +1,10 @@
+Desc:
+Given an array of integers nums, return the length of the longest consecutive sequence of elements.
+A consecutive sequence is a sequence of elements in which each element is exactly 1 greater than the previous element.
+
+Solution:
+def longestConsecutive(self, nums: List[int]) -> int:
+    - track all nums to hashset
+    - check if num-1 is not in hashset, so that current num is the beginning of sequence
+    - if it is, then count all num+1's, if they are in hashset
+    - when stopped -> update the max length
