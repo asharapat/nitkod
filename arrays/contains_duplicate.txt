@@ -1,0 +1,17 @@
+Desc:
+Given an integer array nums, return true if any value appears more than once in the array, otherwise return false
+
+def hasDuplicate(self, nums: List[int]) -> bool:
+        hashset = set()
+        
+        for num in nums:
+            if num in hashset:
+                return True
+            hashset.add(num)
+
+        return False 
+
+def hasDuplicate(self, nums: List[int]) -> bool:
+    - create a set
+    - traverse a nums list and check if the current num is in set. If yes -> return True
+    - add the number to the set
