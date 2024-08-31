@@ -1,0 +1,8 @@
+Desc:
+Given an integer array nums and an integer k, return the k most frequent elements within the array
+
+Solution:
+def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    - keep track the accurence of each number using hashmap
+    - sort the values of hashmap in desc order
+    - return k-first elements
