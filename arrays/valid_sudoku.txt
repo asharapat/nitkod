@@ -15,6 +15,6 @@ def isValidSudoku(self, board: List[List[str]]) -> bool:
      - 1 for each column
      - 1 for 3x3 grid
     - check each element if its already in corresponding set
-    - like: board[r][c] in rows[r] or board[r][c] in cols[c] or or board[r][c] in squares[(r//3, c//3)]
+    - like: board[r][c] in rows[r] or board[r][c] in cols[c] or board[r][c] in squares[(r//3, c//3)]
     - squares[(r//3, c//3)] has key of pairs, including: 0,1,2; // means floor
     - append current element to all corresponding sets
