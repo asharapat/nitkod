@@ -1,0 +1,11 @@
+Desc:
+Given an integer array nums, return an array output where output[i] is the product of all the elements of nums except nums[i]
+
+Solution:
+def productExceptSelf(self, nums: List[int]) -> List[int]:
+    - originally we should maintain 2 lists - product prefix and product postfix
+    - but we can combine these 2 lists to one, be principle below
+    - at first iteration we keep prefix products of previous elements at res[i] position
+    - like: res[i] = res[i-1]*num[i-1]
+    - then, at final iteration we go in reverse order and multiply each res[i] to the postfix of next element
+    - like: res[i] *= postfix => postfix *= nums[i]
