@@ -1,0 +1,20 @@
+Desc:
+You are given a a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are followed:
+- Each row must contain the digits 1-9 without duplicates.
+- Each column must contain the digits 1-9 without duplicates.
+- Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without duplicates.
+
+Return true if the Sudoku board is valid, otherwise return false
+
+Note: A board does not need to be full or be solvable to be valid.
+
+Solution:
+def isValidSudoku(self, board: List[List[str]]) -> bool:
+    - maintain 3 list of sets:
+     - 1 for each row
+     - 1 for each column
+     - 1 for 3x3 grid
+    - check each element if its already in corresponding set
+    - like: board[r][c] in rows[r] or board[r][c] in cols[c] or or board[r][c] in squares[(r//3, c//3)]
+    - squares[(r//3, c//3)] has key of pairs, including: 0,1,2; // means floor
+    - append current element to all corresponding sets
