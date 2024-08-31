@@ -1,0 +1,12 @@
+Desc:
+Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings
+The string can contain any UTF-8 symbols
+
+Solution:
+def encode(self, strs: List[str]) -> str:
+    - encode in way: first is length of each word, then '#' and then word itself: 4#word5#wor#d
+
+def decode(self, s: str) -> List[str]:
+    - find the length first -> string until the first '#'
+    - append the string starting from '#' until the length
+    - return the list of strings
