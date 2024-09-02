@@ -1,0 +1,11 @@
+Desc:
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all distinct.
+
+Solution:
+def threeSum(self, nums: List[int]) -> List[List[int]]:
+    - sort the nums array
+    - use for loop to iterate the list till range(len(nums)-2)
+    - init 2 pointers: l, r = i+1, len(nums)-1
+    - while l < r -> check if nums[l]+nums[r] == 0 - nums[i]
+    - if yes -> save tripple to result list and do not forget to skip the same elements
+    - and do corresponding increment of l and r depending on nums[l]+nums[r] <> 0 - nums[i]
