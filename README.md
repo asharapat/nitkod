@@ -13,3 +13,4 @@
 
 ## Two Pointers
 - [x] 1. [Is palindrome](https://github.com/asharapat/nitkod/blob/master/two_pointers/is_palindrome.txt)
+- [x] 2. [Two sum sorted](https://github.com/asharapat/nitkod/blob/master/two_pointers/two_sum_sorted_array.txt)
