@@ -1,1 +1,1 @@
-print("hi there")
+print(abs(2-7))
