@@ -1,0 +1,13 @@
+Desc:
+You are given an array non-negative integers heights which represent an elevation map. Each value heights[i] represents the height of a bar, which has a width of 1.
+Return the maximum area of water that can be trapped between the bars.
+
+Solution:
+def trap(self, height: List[int]) -> int:
+    - init 2 pointers: l,r = 0, len(height)-1
+    - init leftMax and rightMax: height[l], height[r]
+    - if leftMax < rightMax => it doesnt matter what is actual rightMax is, because ->
+    - -> it will be less than it anyway; so we have to process l+1's element
+    - the same logic if leftMax > rightMax => we process r-1's element
+    - if leftMax < rightMax => res += max(leftMax-height[l], 0), then update leftMax
+    - the same for rightMax
