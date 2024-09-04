@@ -22,3 +22,4 @@
 - [x] 1. [Valid parantheses](https://github.com/asharapat/nitkod/blob/master/stack/valid_parantheses.txt)
 - [x] 2. [Min stack](https://github.com/asharapat/nitkod/blob/master/stack/min_stack.txt)
 - [x] 3. [Reverse polish notation](https://github.com/asharapat/nitkod/blob/master/stack/reverse_polish_notation.txt)
+- [x] 4. [Generate parantheses](https://github.com/asharapat/nitkod/blob/master/stack/generate_parantheses.txt)

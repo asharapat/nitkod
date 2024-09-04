@@ -1,0 +1,10 @@
+Desc:
+You are given an integer n. Return all well-formed parentheses strings that you can generate with n pairs of parentheses.
+
+Solution:
+def generateParenthesis(self, n: int) -> List[str]:
+    - have to backtrack and check with this sequence:
+        - if opened == closed == n: add this str to res list
+        - if opened < n => backtrack(opened+1, closed)
+        - if closed < opened => backtrack(opened, closed+1)
+    - start with backtrack(0,0)
