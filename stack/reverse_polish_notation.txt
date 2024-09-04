@@ -1,0 +1,14 @@
+Desc:
+You are given an array of strings tokens that represents a valid arithmetic expression in Reverse Polish Notation.
+Return the integer that represents the evaluation of the expression.
+- The operands may be integers or the results of other operations.
+- The operators include '+', '-', '*', and '/'.
+- Assume that division between integers always truncates toward zero.
+
+Solution:
+def evalRPN(self, tokens: List[str]) -> int:
+    - if token is operator =>
+        - if '/' or '-' => a, b = st.pop(), st.pop() => st.push(b-a)
+        - else just st.push(st.pop() + st.pop())
+    - else just append to stack
+    - at the end just return stack[0]
