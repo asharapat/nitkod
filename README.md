@@ -20,3 +20,4 @@
 
 ## Stack
 - [x] 1. [Valid parantheses](https://github.com/asharapat/nitkod/blob/master/stack/valid_parantheses.txt)
+- [x] 2. [Min stack](https://github.com/asharapat/nitkod/blob/master/stack/min_stack.txt)

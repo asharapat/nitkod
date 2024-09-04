@@ -1,0 +1,15 @@
+Desc:
+Design a stack class that supports the push, pop, top, and getMin operations.
+- MinStack() initializes the stack object.
+- void push(int val) pushes the element val onto the stack.
+- void pop() removes the element on the top of the stack.
+- int top() gets the top element of the stack.
+- int getMin() retrieves the minimum element in the stack.
+Each function should run in O(1) time.
+
+Solution:
+    - we have to create 2 stacks: stack and minStack
+    - basic logic to push to minStack:
+        - if minStack is empty => just save the value
+        - if minStack is not empty => compare pushed value with the minStack's top value -> minVal
+        - and push the minVal to minStack
