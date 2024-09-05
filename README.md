@@ -24,3 +24,4 @@
 - [x] 3. [Reverse polish notation](https://github.com/asharapat/nitkod/blob/master/stack/reverse_polish_notation.txt)
 - [x] 4. [Generate parantheses](https://github.com/asharapat/nitkod/blob/master/stack/generate_parantheses.txt)
 - [x] 5. [Daily temperatures](https://github.com/asharapat/nitkod/blob/master/stack/daily_temperatures.txt)
+- [x] 6. [Car fleet](https://github.com/asharapat/nitkod/blob/master/stack/car_fleet.txt)
