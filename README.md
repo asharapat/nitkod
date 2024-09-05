@@ -25,3 +25,4 @@
 - [x] 4. [Generate parantheses](https://github.com/asharapat/nitkod/blob/master/stack/generate_parantheses.txt)
 - [x] 5. [Daily temperatures](https://github.com/asharapat/nitkod/blob/master/stack/daily_temperatures.txt)
 - [x] 6. [Car fleet](https://github.com/asharapat/nitkod/blob/master/stack/car_fleet.txt)
+- [x] 7. [Largest rectangle in histogram](https://github.com/asharapat/nitkod/blob/master/stack/largest_rect_in_histogram.txt)

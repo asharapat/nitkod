@@ -1,0 +1,17 @@
+Desc:
+You are given an array of integers heights where heights[i] represents the height of a bar. The width of each bar is 1.
+Return the area of the largest rectangle that can be formed among the bars.
+
+Solution:
+def largestRectangleArea(self, heights: List[int]) -> int:
+    - init stack of pairs (index, height)
+    - if current elem is >= than top elems from stack
+        - means we can extend the potential max area and just append to stack
+    - else if current elem is less than top elems from stack
+        - we can't extend area starting from top stack
+        - we pop elements from stack until the top is <= current element
+            - while popping we compute max area
+        - and we append current elem to stack with the last popped elem's index
+    - if there are left elems in stack
+        - we have to check them to find potential max area
+
