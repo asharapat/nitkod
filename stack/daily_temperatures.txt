@@ -1,0 +1,11 @@
+Desc:
+You are given an array of integers temperatures where temperatures[i] represents the daily temperatures on the ith day.
+Return an array result where result[i] is the number of days after the ith day before a warmer temperature appears on a future day. If there is no day in the future where a warmer temperature will appear for the ith day, set result[i] to 0 instead.
+
+Solution:
+def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+    - we have to create a stack of pairs (stTemp, stIdx)
+    - loop through list
+    - if current elem is greater than top elems in stack ->
+    - -> pop elems from stack and make a record to res list (i - stIdx)
+    - else just append the current elem to stack
