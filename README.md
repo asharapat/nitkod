@@ -29,3 +29,4 @@
 
 ## Binary Search
 - [x] 1. [Binary Search](https://github.com/asharapat/nitkod/blob/master/binary_search/bin_search.txt)
+- [x] 2. [2D matrix](https://github.com/asharapat/nitkod/blob/master/binary_search/2d_matrix.txt)
