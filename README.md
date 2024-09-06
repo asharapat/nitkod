@@ -26,3 +26,6 @@
 - [x] 5. [Daily temperatures](https://github.com/asharapat/nitkod/blob/master/stack/daily_temperatures.txt)
 - [x] 6. [Car fleet](https://github.com/asharapat/nitkod/blob/master/stack/car_fleet.txt)
 - [x] 7. [Largest rectangle in histogram](https://github.com/asharapat/nitkod/blob/master/stack/largest_rect_in_histogram.txt)
+
+## Binary Search
+- [x] 1. [Binary Search](https://github.com/asharapat/nitkod/blob/master/binary_search/bin_search.txt)
