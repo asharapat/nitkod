@@ -32,3 +32,4 @@
 - [x] 2. [2D matrix](https://github.com/asharapat/nitkod/blob/master/binary_search/2d_matrix.txt)
 - [x] 3. [Eating bananas](https://github.com/asharapat/nitkod/blob/master/binary_search/eating_bananas.txt)
 - [x] 4. [Min in rotated sorted array](https://github.com/asharapat/nitkod/blob/master/binary_search/min_in_rotated_sorted.txt)
+- [x] 5. [Search in rotated sorted array](https://github.com/asharapat/nitkod/blob/master/binary_search/search_in_rotated_sorted.txt)

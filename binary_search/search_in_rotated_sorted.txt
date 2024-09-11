@@ -1,0 +1,21 @@
+Desc:
+You are given an array of length n which was originally sorted in ascending order. It has now been rotated between 1 and n times. For example, the array nums = [1,2,3,4,5,6] might become:
+- [3,4,5,6,1,2] if it was rotated 4 times.
+- [1,2,3,4,5,6] if it was rotated 6 times.
+Given the rotated sorted array nums and an integer target, return the index of target within nums, or -1 if it is not present.
+You may assume all elements in the sorted rotated array nums are unique. 
+Algorithm must run in O(log n) time
+
+Solution:
+def search(self, nums: List[int], target: int) -> int:
+    - init l, r = 0, len(nums) - 1
+    - start bin search and get m = (l+r) // 2
+    - if nums[m] == target => return m
+    - if we are at the left part:
+        - if target > nums[m] => l = m + 1
+        - elif target < nums[m] and target is less than first elem at left part => l = m + 1
+        - else => r = m - 1
+    - elif we are at the right part:
+        - if target < nums[m] = > r = m - 1
+        - elif target > nums[m] and target is greater than last elem at right part => r = m - 1
+        - else => l = m + 1
