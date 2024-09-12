@@ -34,3 +34,4 @@
 - [x] 4. [Min in rotated sorted array](https://github.com/asharapat/nitkod/blob/master/binary_search/min_in_rotated_sorted.txt)
 - [x] 5. [Search in rotated sorted array](https://github.com/asharapat/nitkod/blob/master/binary_search/search_in_rotated_sorted.txt)
 - [x] 6. [Time based key-value store](https://github.com/asharapat/nitkod/blob/master/binary_search/time_based_kv_store.txt)
+- [x] 7. [Median of 2 sorted arrays](https://github.com/asharapat/nitkod/blob/master/binary_search/median_of_two_sorted.txt)

@@ -1,0 +1,19 @@
+Desc:
+You are given two integer arrays nums1 and nums2 of size m and n respectively, where each is sorted in ascending order. Return the median value among all elements of the two arrays.
+Your solution must run in O(log(m+n)) time.
+
+Solution:
+def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+    # the main idea is to form the left partition from both arrays ->
+    # -> and to take minimum from right partition
+
+    - take the shorter array
+    - run binary search on it with l, r = 0, len(shorter) - 1
+    - i = (l+r)//2 and j = half - i => meaning we take elems from shorter array until i'th ->
+    - -> elem, then we take the rest from longer array which is half - i
+    - A - shorter array, B - longer array
+    - we check: if A[i] <= B[j+1] and B[j] <= A[i+1]:
+        - if yes => return the median, but total could be either even or odd
+        - elif a[i] > b[j+1] => we have to reduce shorter array's left partition ->
+        - -> and do r = i - 1
+        - else: l = i + 1
