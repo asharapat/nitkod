@@ -35,3 +35,6 @@
 - [x] 5. [Search in rotated sorted array](https://github.com/asharapat/nitkod/blob/master/binary_search/search_in_rotated_sorted.txt)
 - [x] 6. [Time based key-value store](https://github.com/asharapat/nitkod/blob/master/binary_search/time_based_kv_store.txt)
 - [x] 7. [Median of 2 sorted arrays](https://github.com/asharapat/nitkod/blob/master/binary_search/median_of_two_sorted.txt)
+
+## Sliding Window
+- [x] 1. [Buy and sell stock](https://github.com/asharapat/nitkod/blob/master/sliding_window/buy_sell_stock.txt)
