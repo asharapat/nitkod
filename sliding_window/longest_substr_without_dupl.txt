@@ -1,0 +1,14 @@
+Desc:
+Given a string s, find the length of the longest substring without duplicate characters.
+A substring is a contiguous sequence of characters within a string.
+
+Solution:
+def lengthOfLongestSubstring(self, s: str) -> int:
+    - init a hashSet, max and left pointer
+    - loop through the string
+    - while the letter is already in our set:
+        - move the left pointer
+        - before moving it, remove this left letter from the set
+    - else:
+        - add the letter to set
+        - update the max

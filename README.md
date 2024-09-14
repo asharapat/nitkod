@@ -38,3 +38,4 @@
 
 ## Sliding Window
 - [x] 1. [Buy and sell stock](https://github.com/asharapat/nitkod/blob/master/sliding_window/buy_sell_stock.txt)
+- [x] 2. [Longest substring with no duplicates](https://github.com/asharapat/nitkod/blob/master/sliding_window/longest_substr_without_dupl.txt)
