@@ -1,0 +1,17 @@
+Desc:
+You are given two strings s1 and s2.
+Return true if s2 contains a permutation of s1, or false otherwise. That means if a permutation of s1 exists as a substring of s2, then return true.
+Both strings only contain lowercase letters.
+
+Solution:
+def checkInclusion(self, s1: str, s2: str) -> bool:
+    - track 2 letter counters for s1 and s2 with the length of 26
+    - init matches* var
+    - index would be => ord(s[i]) - ord('a')
+    - track s1 and first 3 letters from s2
+    - start looping through s2 from len(s1)
+    - when adding new letter to s2Count consider updating matches var
+    - when removing left letter from s2Count consider updating matches var
+
+* - we use matches var to match letter counts from s1 and s2. If its 26, 
+    then we found the permutation.
