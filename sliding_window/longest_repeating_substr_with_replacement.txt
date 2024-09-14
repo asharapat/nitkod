@@ -1,0 +1,17 @@
+Desc:
+You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
+After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
+
+Solution:
+def characterReplacement(self, s: str, k: int) -> int:
+    - init dict that will track the letter frequency in current window
+    - init the left pointer and the max
+    - loop through the string
+        - increase the freq of current letter
+        - while (window length - max frequent letter dict)* > k:
+            - move the left pointer
+            - decrease corresponding letter freq from the dict
+        - just update the max
+
+
+* - in the current window we will have total sum(dict.values()) number of letters
