@@ -1,0 +1,11 @@
+Desc:
+You are given an array of integers nums and an integer k. There is a sliding window of size k that starts at the left edge of the array. The window slides one position to the right until it reaches the right edge of the array.
+Return a list that contains the maximum element in the window at each step.
+
+Solution:
+def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+    - use 2 pointers and deque 
+    - loop through the list and before adding cur elem to dq
+        - while current number is greater than the last elem in the dq => pop last elem from dq
+    - if first elem at dq is out of bound of the window => pop the first elem
+    - start appending the result and moving left pointer only after (r+1) >= k
