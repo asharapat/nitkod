@@ -41,3 +41,4 @@
 - [x] 2. [Longest substring with no duplicates](https://github.com/asharapat/nitkod/blob/master/sliding_window/longest_substr_without_dupl.txt)
 - [x] 3. [Longest repeating substring with replacements](https://github.com/asharapat/nitkod/blob/master/sliding_window/longest_repeating_substr_with_replacement.txt)
 - [x] 4. [Permutation string](https://github.com/asharapat/nitkod/blob/master/sliding_window/permutation_string.txt)
+- [x] 5. [Min window substring](https://github.com/asharapat/nitkod/blob/master/sliding_window/min_window_substr.txt)

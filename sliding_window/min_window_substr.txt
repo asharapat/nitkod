@@ -1,0 +1,16 @@
+Desc:
+Given two strings s and t, return the shortest substring of s such that every character in t, including duplicates, is present in the substring. If such a substring does not exist, return an empty string "".
+You may assume that the correct output is always unique.
+
+Solution:
+def minWindow(self, s: str, t: str) -> str:
+    - init 2 dict that count the char freq in it: window (substr) and countT (t)
+    - track 2 vars: have and need
+        - have - if added char freq to window is now equal to countT[c], then have++
+        - need - unique number of char at countT
+    - while need == have:
+        - move the left pointer
+        - delete corresponding char from window
+        - if deleted char was in countT and if window[char] < countT[char]:
+            - have--
+    
