@@ -1,0 +1,23 @@
+Desc:
+Given the beginning of a singly linked list head, reverse the list, and return the new beginning of the list.
+
+Solution:
+def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    # two possible solutions
+    
+    1. iteratively:
+    - prev, curr = None, head
+    - loop while curr is not null
+        - save curr.next to temp var
+        - curr.next = prev
+        - prev = curr
+        - curr = temp
+
+    2. recursively:
+    - if we have next element => call recursive function to head.next
+    - keep track of new head and return it at each recursive call
+    - when recursive call returns:
+        - now we have current head
+        - make head.next.next = head
+        - head.next = None
+    - at the end return newHead

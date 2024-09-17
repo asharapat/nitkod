@@ -43,3 +43,6 @@
 - [x] 4. [Permutation string](https://github.com/asharapat/nitkod/blob/master/sliding_window/permutation_string.txt)
 - [x] 5. [Min window substring](https://github.com/asharapat/nitkod/blob/master/sliding_window/min_window_substr.txt)
 - [x] 6. [Max sliding window](https://github.com/asharapat/nitkod/blob/master/sliding_window/max_sliding_window.txt)
+
+## Linked List
+- [x] 1. [Reverse linked list](https://github.com/asharapat/nitkod/blob/master/linked_list/reverse.txt)
