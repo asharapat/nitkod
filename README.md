@@ -46,3 +46,4 @@
 
 ## Linked List
 - [x] 1. [Reverse linked list](https://github.com/asharapat/nitkod/blob/master/linked_list/reverse.txt)
+- [x] 2. [Merge linked lists](https://github.com/asharapat/nitkod/blob/master/linked_list/merge.txt)
