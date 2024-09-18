@@ -1,0 +1,12 @@
+Desc:
+You are given the beginning of a linked list head, and an integer n.
+Remove the nth node from the end of the list and return the beginning of the list.
+
+Solution:
+def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    - create dummy node linke dummy = ListNode(val: 0, next: head)
+    - init 2 pointers: left = dummy, right = head
+    - move the right to n'th position
+    - keep the distance between left and right and move both until tight == null
+    - whenever right == null => left+1 is on the n'th position from the end
+    - just do left.next = left.next.next
