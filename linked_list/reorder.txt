@@ -1,0 +1,14 @@
+Desc:
+You are given the head of a singly linked-list.
+The positions of a linked list of length = 7 for example, can intially be represented as:
+[0, 1, 2, 3, 4, 5, 6]
+Reorder the nodes of the linked list to be in the following order:
+[0, 6, 1, 5, 2, 4, 3]
+
+Solution:
+def reorderList(self, head: Optional[ListNode]) -> None:
+    - use slow and fast pointers
+    - whenever fast becomes null slow reaches the middle of the ll
+    - divide list to 2 portions: left and right
+    - reverse the right part
+    - merge 2 parts
