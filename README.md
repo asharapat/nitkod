@@ -50,3 +50,4 @@
 - [x] 3. [Reorder linked lists](https://github.com/asharapat/nitkod/blob/master/linked_list/reorder.txt)
 - [x] 4. [Remove from end](https://github.com/asharapat/nitkod/blob/master/linked_list/remove_from_end.txt)
 - [x] 5. [Copy linked list with random pointer](https://github.com/asharapat/nitkod/blob/master/linked_list/deep_copy.txt)
+- [x] 6. [Add numbers of linked list](https://github.com/asharapat/nitkod/blob/master/linked_list/add_2nums.txt)
