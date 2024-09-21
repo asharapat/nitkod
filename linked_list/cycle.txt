@@ -1,0 +1,9 @@
+Desc:
+Given the beginning of a linked list head, return true if there is a cycle in the linked list. Otherwise, return false.
+There is a cycle in a linked list if at least one node in the list that can be visited again by following the next pointer.
+
+Solution:
+def hasCycle(self, head: Optional[ListNode]) -> bool:
+    - create 2 pointers: slow and fast (slow.next && fast.next.next)
+    - loop while fast is not null
+        - whenever slow == fast => True
