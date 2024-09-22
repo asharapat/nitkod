@@ -53,3 +53,4 @@
 - [x] 6. [Add numbers of linked list](https://github.com/asharapat/nitkod/blob/master/linked_list/add_2nums.txt)
 - [x] 7. [Linked List Cycle Detection](https://github.com/asharapat/nitkod/blob/master/linked_list/cycle.txt)
 - [x] 8. [Find Duplicate](https://github.com/asharapat/nitkod/blob/master/linked_list/find_duplicate.txt)
+- [x] 9. [LRU cache](https://github.com/asharapat/nitkod/blob/master/linked_list/lru_cache.txt)
