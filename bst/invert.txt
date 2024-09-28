@@ -1,0 +1,6 @@
+Desc:
+You are given the root of a binary tree root. Invert the binary tree and return its root.
+
+def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+    - we can use either pre-order or post-order traversal to both childs
+    - then just swap right and left child of the node
