@@ -1,0 +1,9 @@
+Desc:
+Given the root of a binary tree, return its depth.
+The depth of a binary tree is defined as the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+Solution:
+def maxDepth(self, root: Optional[TreeNode]) -> int:
+    - get the height of both childs and return max(left, right) + 1
+    - if null node => return 0
+

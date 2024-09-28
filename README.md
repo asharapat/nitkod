@@ -57,3 +57,4 @@
 
 ## BST
 - [x] 1. [Invert a BT](https://github.com/asharapat/nitkod/blob/master/bst/invert.txt)
+- [x] 2. [Max depth](https://github.com/asharapat/nitkod/blob/master/bst/max_depth.txt)
