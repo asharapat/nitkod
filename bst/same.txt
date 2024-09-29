@@ -1,0 +1,11 @@
+Desc:
+Given the roots of two binary trees p and q, return true if the trees are equivalent, otherwise return false.
+Two binary trees are considered equivalent if they share the exact same structure and the nodes have the same values.
+
+Solution:
+def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+    - use dfs to check these cases:
+        - if both are null => true
+        - if only one of them is null => false
+        - if vals are different => false
+        - if left and right subtrees are the same => true else false

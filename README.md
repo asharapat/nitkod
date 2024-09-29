@@ -60,3 +60,4 @@
 - [x] 2. [Max depth](https://github.com/asharapat/nitkod/blob/master/bst/max_depth.txt)
 - [x] 3. [Diameter](https://github.com/asharapat/nitkod/blob/master/bst/diameter.txt)
 - [x] 4. [Balanced](https://github.com/asharapat/nitkod/blob/master/bst/balanced.txt)
+- [x] 5. [Same](https://github.com/asharapat/nitkod/blob/master/bst/same.txt)
