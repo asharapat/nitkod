@@ -61,3 +61,4 @@
 - [x] 3. [Diameter](https://github.com/asharapat/nitkod/blob/master/bst/diameter.txt)
 - [x] 4. [Balanced](https://github.com/asharapat/nitkod/blob/master/bst/balanced.txt)
 - [x] 5. [Same](https://github.com/asharapat/nitkod/blob/master/bst/same.txt)
+- [x] 6. [Subtree](https://github.com/asharapat/nitkod/blob/master/bst/subtree.txt)
