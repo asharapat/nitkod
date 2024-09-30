@@ -1,0 +1,10 @@
+Desc:
+Given a binary tree root, return the level order traversal of it as a nested list, where each sublist contains the values of nodes at a particular level in the tree, from left to right.
+
+Solution:
+def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    - use bfs
+    - if queue is not empty:
+        - take elements from queue
+        - add their vals to resList
+        - add their children to queue
