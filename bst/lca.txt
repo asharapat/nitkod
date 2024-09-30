@@ -1,0 +1,11 @@
+Desc:
+Given a binary search tree (BST) where all node values are unique, and two nodes from the tree p and q, return the lowest common ancestor (LCA) of the two nodes.
+The lowest common ancestor between two nodes p and q is the lowest node in a tree T such that both p and q as descendants. The ancestor is allowed to be a descendant of itself.
+
+Solution:
+def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+    - iterative approach
+    - if p and q is greater than root => go right
+    - elif p and q is less than root => go left
+    - otherwise the split just occured and current node is the lca
+        - can be the case when p or q is equal to root

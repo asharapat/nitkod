@@ -62,3 +62,4 @@
 - [x] 4. [Balanced](https://github.com/asharapat/nitkod/blob/master/bst/balanced.txt)
 - [x] 5. [Same](https://github.com/asharapat/nitkod/blob/master/bst/same.txt)
 - [x] 6. [Subtree](https://github.com/asharapat/nitkod/blob/master/bst/subtree.txt)
+- [x] 7. [LCA](https://github.com/asharapat/nitkod/blob/master/bst/lca.txt)
