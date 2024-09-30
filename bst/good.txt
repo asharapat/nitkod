@@ -1,0 +1,10 @@
+Desc:
+Within a binary tree, a node x is considered good if the path from the root of the tree to the node x contains no nodes with a value greater than the value of node x
+Given the root of a binary tree root, return the number of good nodes within the tree.
+
+Solution:
+def goodNodes(self, root: TreeNode) -> int:
+    - use preorder travers
+    - if node >= mx => res = 1
+    - update the mx
+    - add to res returned value from left side and right side

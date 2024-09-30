@@ -1,0 +1,8 @@
+Desc:
+You are given the root of a binary tree. Return only the values of the nodes that are visible from the right side of the tree, ordered from top to bottom
+
+Solution:
+def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+    - use bfs
+    - add childs from left to right to queue
+    - get rightmost elem from queue to add to resList
