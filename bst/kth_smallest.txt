@@ -1,0 +1,9 @@
+Desc:
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) in the tree.
+
+Solution:
+def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+    - iterative inorder dfs
+    - go left and add elems to stack
+    - after we reach leftmost => start processing elems from stack
+    - whenever we process current elem => do k -=1 and return current elem if k == 0

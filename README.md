@@ -67,3 +67,4 @@
 - [x] 9. [Right side](https://github.com/asharapat/nitkod/blob/master/bst/right_side.txt)
 - [x] 10. [Good](https://github.com/asharapat/nitkod/blob/master/bst/good.txt)
 - [x] 11. [Valid](https://github.com/asharapat/nitkod/blob/master/bst/valid.txt)
+- [x] 12. [Kth smallest](https://github.com/asharapat/nitkod/blob/master/bst/kth_smallest.txt)
