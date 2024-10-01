@@ -1,0 +1,12 @@
+Desc:
+You are given two integer arrays preorder and inorder.
+Rebuild the binary tree from the preorder and inorder traversals and return its root.
+
+Solution:
+def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+    - preorder[0] is the root
+    - mid = inorder.index(preorder[0]) is our delimiter meaning:
+        - all elements left to mid in inorder are in left subtree
+        - all elements right to mid inorder are in right subtree
+        - all elements from [1:mid+1] in preorder are in left subtree
+        - all elements from [mid+1:] in preopder are in right subtree
