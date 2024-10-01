@@ -1,0 +1,12 @@
+Desc:
+Given the root of a binary tree, return true if it is a valid binary search tree, otherwise return false.
+A valid binary search tree satisfies the following constraints:
+    - The left subtree of every node contains only nodes with keys less than the node's key.
+    - The right subtree of every node contains only nodes with keys greater than the node's key.
+    - Both the left and right subtrees are also binary search trees.
+
+Solution:
+def isValidBST(self, root: Optional[TreeNode]) -> bool:
+    - (-inf) < root < (+inf)
+    - if we go left => left child only has to be less than the parent => update the right bound
+    - if we go right => right child only has to be greater than the parent => update the left bound

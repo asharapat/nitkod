@@ -65,4 +65,5 @@
 - [x] 7. [LCA](https://github.com/asharapat/nitkod/blob/master/bst/lca.txt)
 - [x] 8. [Level](https://github.com/asharapat/nitkod/blob/master/bst/level_order.txt)
 - [x] 9. [Right side](https://github.com/asharapat/nitkod/blob/master/bst/right_side.txt)
-- [x] 9. [Good](https://github.com/asharapat/nitkod/blob/master/bst/good.txt)
+- [x] 10. [Good](https://github.com/asharapat/nitkod/blob/master/bst/good.txt)
+- [x] 11. [Valid](https://github.com/asharapat/nitkod/blob/master/bst/valid.txt)
