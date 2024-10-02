@@ -69,3 +69,4 @@
 - [x] 11. [Valid](https://github.com/asharapat/nitkod/blob/master/bst/valid.txt)
 - [x] 12. [Kth smallest](https://github.com/asharapat/nitkod/blob/master/bst/kth_smallest.txt)
 - [x] 13. [Construct from preorder and inorder](https://github.com/asharapat/nitkod/blob/master/bst/construct.txt)
+- [x] 14. [Max path sum](https://github.com/asharapat/nitkod/blob/master/bst/maxpathsum.txt)
