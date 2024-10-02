@@ -1,0 +1,19 @@
+Desc:
+Implement an algorithm to serialize and deserialize a binary tree.
+Serialization is the process of converting an in-memory structure into a sequence of bits so that it can be stored or sent across a network to be reconstructed later in another computer environment.
+You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure. There is no additional restriction on how your serialization/deserialization algorithm should work.
+
+Solution:
+def serialize(self, root: Optional[TreeNode]) -> str:
+    - use preorder traversal
+    - if node is null => add "N" to list
+    - else add node.val
+
+def deserialize(self, data: str) -> Optional[TreeNode]:
+    - init self.i - counter
+    - use dfs to construct a tree
+    - whenever current is "N" => i++ and return
+    - else
+        - create a node
+        - i++
+        - call dfs for node.left and node.right
