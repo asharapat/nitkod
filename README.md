@@ -71,3 +71,6 @@
 - [x] 13. [Construct from preorder and inorder](https://github.com/asharapat/nitkod/blob/master/bst/construct.txt)
 - [x] 14. [Max path sum](https://github.com/asharapat/nitkod/blob/master/bst/maxpathsum.txt)
 - [x] 15. [Serialize/Deserialize](https://github.com/asharapat/nitkod/blob/master/bst/serialize.txt)
+
+## Trie
+- [x] 1. [Implement](https://github.com/asharapat/nitkod/blob/master/trie/implement.txt)

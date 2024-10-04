@@ -1,0 +1,27 @@
+Desc:
+A prefix tree (also known as a trie) is a tree data structure used to efficiently store and retrieve keys in a set of strings. Some applications of this data structure include auto-complete and spell checker systems.
+Implement the PrefixTree class:
+- PrefixTree() Initializes the prefix tree object.
+- void insert(String word) Inserts the string word into the prefix tree.
+- boolean search(String word) Returns true if the string word is in the prefix tree (i.e., was inserted before), and false otherwise.
+- boolean startsWith(String prefix) Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.
+
+Solution:
+
+- Have to create another class TrieNode first: with children hashmap and endOfWord bool
+
+- def __init__(self):
+    - have to init the root TrieNode
+
+- def insert(self, word: str) -> None:
+    - start the node from the root
+    - check if cur node have the char from the word
+        - if not => insert to map and create a TrieNode
+    - indicate last node as endOfWord 
+
+- def search(self, word: str) -> bool:
+    - check each char of word in the trie
+    - if we looked all the chars and if the current node indicates endOfWord => True
+
+- def startsWith(self, prefix: str) -> bool:
+    - similar to search, except => just return True
