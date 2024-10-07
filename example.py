@@ -1,7 +1,3 @@
-dicttt = {
-    "one": 4,
-    "two": 5,
-    "three": 7
-}
+listt = (1,3,4,5,5)
 
-print(sum(dicttt.values()))
+print(sum(listt))
