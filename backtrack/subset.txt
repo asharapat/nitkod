@@ -1,0 +1,9 @@
+Desc:
+Given an array nums of unique integers, return all possible subsets of nums.
+
+Solution:
+def subsets(self, nums: List[int]) -> List[List[int]]:
+    - have to use dfs
+    - at each step we have 2 choices:
+        - add current element and call a dfs
+        - pop current element and call a dfs

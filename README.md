@@ -75,3 +75,6 @@
 ## Trie
 - [x] 1. [Implement](https://github.com/asharapat/nitkod/blob/master/trie/implement.txt)
 - [x] 2. [Add & Search](https://github.com/asharapat/nitkod/blob/master/trie/add_seach.txt)
+
+## Backtrack
+- [x] 2. [Subsets](https://github.com/asharapat/nitkod/blob/master/backtrack/subset.txt)
