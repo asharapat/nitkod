@@ -1,0 +1,14 @@
+Desc:
+You are given an array nums of integers, which may contain duplicates. 
+Return all possible subsets.
+The solution must not contain duplicate subsets. You may return the solution in any order.
+
+Solution:
+def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+    - the solution is similar to subset problem:
+    - have 2 choices:
+        - add current element and call dfs(i+1, subset)
+        - pop current element and check:
+            - while nums[i] == nums[i+1]: i += 1
+        - only after that call dfs(i+1, subset)
+        - this will guarantee that we don't consider the same element several times
