@@ -1,0 +1,13 @@
+Desc:
+Given an array nums of unique integers, return all the possible permutations. 
+You may return the answer in any order.
+
+Solution:
+def permute(self, nums: List[int]) -> List[List[int]]:
+    - for ex. we have 3 numbers [1,2,3]
+    - take the first number and call recursion for last 2 numbers
+    - take first number and call recursion for last 1 number
+    - possible permutations for 3 => [3] return up
+    - possible permutations for 2 and [3] => [2,3], [3,2] return up
+    - possible permutations for 1 and [[2,3], [3,2]] => [[1,2,3], [2,1,3], [2,3,1], [1,3,2],
+        [3,1,2], [3,2,1]] = the end result
