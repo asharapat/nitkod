@@ -81,3 +81,4 @@
 - [x] 2. [Combination](https://github.com/asharapat/nitkod/blob/master/backtrack/combine.txt)
 - [x] 3. [Permutation](https://github.com/asharapat/nitkod/blob/master/backtrack/permutation.txt)
 - [x] 4. [Subsets II](https://github.com/asharapat/nitkod/blob/master/backtrack/subset2.txt)
+- [x] 5. [Combination II](https://github.com/asharapat/nitkod/blob/master/backtrack/combine2.txt)

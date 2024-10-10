@@ -1,0 +1,13 @@
+Desc:
+You are given an array of integers candidates, which may contain duplicates, and a target integer target. 
+Your task is to return a list of all unique combinations of candidates where the chosen numbers sum to target.
+Each element from candidates may be chosen at most once within a combination. 
+The solution set must not contain duplicate combinations.
+
+Solution:
+def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+    - sort the input array
+    - use the same approach as for the combine problem, except:
+        - if nums[i] == nums[i+1] => then do i++
+        - we don't consider the same element more than one time, so
+        - in the base case check (if total == target) before i >= len(nums)
