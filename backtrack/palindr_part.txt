@@ -1,0 +1,13 @@
+Desc:
+Given a string s, split s into substrings where every substring is a palindrome. 
+Return all possible lists of palindromic substrings.
+
+Solution:
+def partition(self, s: str) -> List[List[str]]:
+    - example: aab
+    - loop through substrings like -> a, aa, aab and call dfs for remaining part of the str
+    - the decision tree:
+               aab
+        *a        *aa      aab
+      *a   ab      *b
+    *b
