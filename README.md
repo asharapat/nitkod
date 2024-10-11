@@ -84,3 +84,4 @@
 - [x] 5. [Combination II](https://github.com/asharapat/nitkod/blob/master/backtrack/combine2.txt)
 - [x] 6. [Word Search](https://github.com/asharapat/nitkod/blob/master/backtrack/word_search.txt)
 - [x] 7. [Palindrome Partitioning](https://github.com/asharapat/nitkod/blob/master/backtrack/palindr_part.txt)
+- [x] 8. [Phone Combination](https://github.com/asharapat/nitkod/blob/master/backtrack/phone.txt)

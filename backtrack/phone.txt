@@ -1,0 +1,11 @@
+Desc:
+You are given a string digits made up of digits from 2 through 9 inclusive.
+Each digit (not including 1) is mapped to a set of characters as shown below:
+A digit could represent any one of the characters it maps to.
+Return all possible letter combinations that digits could represent.
+
+Solution:
+def letterCombinations(self, digits: str) -> List[str]:
+    - init a digit to letter map
+    - loop through over the letters of current digit and
+    - do a backtrack to next digit's letters
